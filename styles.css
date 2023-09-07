@@ -2,22 +2,22 @@
 
 main img {
     width: 400px;
-    height: 50;
+    height: auto; /* Corrected height */
     float: left;
     margin-right: 150px;
-    border: 20px;
+    border: 20px solid transparent; /* Added 'solid' and 'transparent' to specify border style */
 }
  
 main {
     color: black;
-    
-    
 }
+
 header img {
     width: 80px;
     height: auto;
     margin-right: 20px;
 }
+
 body {
     background-color: whitesmoke;
     font-family: Arial, sans-serif;
@@ -27,9 +27,8 @@ body {
 
 header {
     background-color: #333;
-    color: #007bff;
+    color: rgb(26, 52, 196);
     padding: 5px;
-    
 }
 
 header h1 {
@@ -62,7 +61,7 @@ main {
     background-position: center;
     text-align: center;
     padding: 100px;
-    color: #007bff;
+    color: #3700ffa8;
 }
 
 .hero h2 {
@@ -75,7 +74,7 @@ main {
 
 .btn {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #77217a;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -95,10 +94,9 @@ main {
 }
 
 .property-card img {
-    background-image: url("../IMG_20230623_144018.jpg/IMG_20230623_144018.jpg");
-    /* Add other css properties for the card's image here*/
-     width: 100%;
-    
+    background-image: url('../IMG_20230623_144018.jpg');
+    width: 100%;
+    height: auto; /* Corrected height */
 }
 
 footer {
@@ -107,51 +105,48 @@ footer {
     background-color: #333;
     color: #fff;
 }
-.property-card img {
-    width: 250px;
-    height: 100;
-
-}
 
 footer img {
     width: 50px;
-    height: 100;
-    
+    height: auto; /* Corrected height */
 }
+
 .social-media-list {
     list-style: none;
     padding: 0;
     text-align: center;
 }
+
 .social-media-list li {
     margin-bottom: 10px;
 }
+
 .social-media-list img {
     width: 30px;
-    height:30px;
+    height: 30px;
     margin-right: 10px;
     vertical-align: middle;
 }
-main img {
-    width: 200PX;
-    height: 100;
-}
+
 section img {
     width: 200px;
-    height: auto;
+    height: auto; /* Corrected height */
 }
+
 section footer {
     background-color: aqua;
     color: aqua;
     background: transparent;
 }
+
 #welcome-heading {
-    overflow: hidden; /* hide overflowing text*/
-    white-space: nowrap; /* prevent text from wrapping*/
+    overflow: hidden;
+    white-space: nowrap;
     animation: typing 3s step(30) infinite;
 }
+
 @keyframes typing {
-    from{
+    from {
         width: 0;
     }
     to {
